@@ -1,7 +1,7 @@
-CollectTweets_PythonCLI
+collect_tweets_cli
 ======
 
-This Command line Python App collect and store to disk the last "limit" tweets from: "target" 's twitter account
+This Command line Python App try to collect a given number of tweets from a given twitter account and put them into some json file.
 
 Prerequisites
 ------------
@@ -17,15 +17,15 @@ is by using pip/easy_install to pull it from PyPI:
 Installation
 ------------
 
-	git clone https://github.com/LaChouetteInformatique/CollectTweets_PythonCLI
-	cd CollectTweets_PythonCLI
+	$ git clone https://github.com/LaChouetteInformatique/CollectTweets_PythonCLI'
+	$ cd CollectTweets_PythonCLI'
 	
 Configuration
 -------------
 
 1. Make some oauth.json file from model, ex :
 
-	cp oauth_empty.json oauth.json
+		$ cp oauth_empty.json oauth.json
 
 2. Enter you twitter app credentials into it one way or another, ex :
 
@@ -38,19 +38,10 @@ Configuration
 Run
 ---
 
-	python collect_tweets_app.py -h
-
+	$ python collect_tweets_app.py -h
 
 ## Acknowledgments
 
 * Thanks to the teacher who pushed me to make this as a tweetter discovery exercice
 * Hat tip to anyone who's code was used
-
-## Ref links:
-
-https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline.html
-https://developer.twitter.com/en/docs/basics/things-every-developer-should-know
-https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets
-https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators
-https://docs.python.org/3.6/library/argparse.html#module-argparse
-https://docs.python.org/3.6/howto/argparse.html#id1
+* Thanks to [jbt.github.io](https://jbt.github.io/markdown-editor/) for their markdown-editor
