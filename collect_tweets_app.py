@@ -36,7 +36,8 @@ if __name__ == '__main__':
     sub_path = pathlib_Path("output/")
     # JSON file containing CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
     #   Create an App to get them : https://apps.twitter.com/
-    # This file must be is the same directory as the python script
+    # Path is relative to this python script directory
+    # If no path and just a name, must be in the same directory as this script
     twitter_oauth_path = 'oauth.json'
     # Prefix used for files name generation
     output_files_prefix = 'Collect'
