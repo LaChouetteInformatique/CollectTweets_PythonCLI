@@ -17,7 +17,7 @@ is by using pip/easy_install to pull it from PyPI:
 Installation
 ------------
 
-	$ git clone https://github.com/LaChouetteInformatique/CollectTweets_PythonCLI'
+	$ git clone https://github.com/LaChouetteInformatique/CollectTweets_PythonCLI
 	$ cd CollectTweets_PythonCLI'
 	
 Configuration
