@@ -18,7 +18,7 @@ Installation
 ------------
 
 	$ git clone https://github.com/LaChouetteInformatique/CollectTweets_PythonCLI
-	$ cd CollectTweets_PythonCLI'
+	$ cd CollectTweets_PythonCLI
 	
 Configuration
 -------------
